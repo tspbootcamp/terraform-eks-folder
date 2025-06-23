@@ -8,7 +8,7 @@ variable "cluster-name" {
   type    = string
 }
 variable "key_pair_name" {
-  default = "tspcloud"
+  default = "Marypearl"  //update to your keypair name
 }
 variable "eks_node_instance_type" {
   default = "t2.micro"

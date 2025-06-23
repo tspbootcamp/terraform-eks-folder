@@ -24,6 +24,6 @@ terraform {
     region = "ca-central-1"
     workspace_key_prefix = "microservices"
     key    = "terraform.tfstate"
-    bucket = "fashion-project-bucket"
+    bucket = "bootcamp-mary"
   }
 }
