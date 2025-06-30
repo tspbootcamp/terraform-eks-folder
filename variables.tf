@@ -11,7 +11,7 @@ variable "key_pair_name" {
   default = "Marypearl"  //update to your keypair name
 }
 variable "eks_node_instance_type" {
-  default = "t2.micro"
+  default = "t3.medium"
 }
 
 variable "environment" {
