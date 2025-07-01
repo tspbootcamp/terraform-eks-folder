@@ -1,0 +1,3 @@
+kubectl delete svc frontend-external
+kubectl apply -f manifest.yaml
+
