@@ -72,6 +72,7 @@ spec:
           limits:
             cpu: 200m
             memory: 128Mi
+
 ---
 apiVersion: v1
 kind: Service
@@ -369,6 +370,7 @@ metadata:
   annotations:
     # This annotation helps AWS NLB/ELB health checks. Change `/` if your frontend needs a different health check path.
     service.beta.kubernetes.io/aws-load-balancer-healthcheck-path: /
+    external-dns.alpha.kubernetes.io/hostname: app.example.com. # Change to your domain name
 spec:
   type: LoadBalancer
   selector:
